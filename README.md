@@ -1,6 +1,7 @@
 # LogiCon
 
 __Overview__
+
 LogiCon is an unsupervised ML algoritm for hierarchical constraint-learning and pattern recognition. Data is received by the system in the form of a two-dimensional grid, where each cell contains a single object that holds information. A system is made of multiple grids, each stacked on top of the previous. Between each pair of adjacent grids lies a system called a mapper. A mapper observes a two-dimensional subset if cells from its lower grid, and generates an object that is stored in a single element of the upper grid.
 
 Mappers are associated with sets of information called templates. Templates and objects are similar but distinct in that any given object is a sort of ‘instantiation’ of a template. Templates can be thought of as types while objects as tokens, or abstracts and particulars respectfully.
